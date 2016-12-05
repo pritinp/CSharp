@@ -1,0 +1,5 @@
+D:\VisualStudio2015\HelloWorld\HelloWorld\bin\Release\HelloWorld.exe.config
+D:\VisualStudio2015\HelloWorld\HelloWorld\bin\Release\HelloWorld.exe
+D:\VisualStudio2015\HelloWorld\HelloWorld\bin\Release\HelloWorld.pdb
+D:\VisualStudio2015\HelloWorld\HelloWorld\obj\Release\HelloWorld.exe
+D:\VisualStudio2015\HelloWorld\HelloWorld\obj\Release\HelloWorld.pdb

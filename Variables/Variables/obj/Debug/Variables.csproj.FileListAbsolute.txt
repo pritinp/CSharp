@@ -1,0 +1,6 @@
+D:\VisualStudio2015\Variables\Variables\bin\Debug\Variables.exe.config
+D:\VisualStudio2015\Variables\Variables\bin\Debug\Variables.exe
+D:\VisualStudio2015\Variables\Variables\bin\Debug\Variables.pdb
+D:\VisualStudio2015\Variables\Variables\obj\Debug\Variables.csprojResolveAssemblyReference.cache
+D:\VisualStudio2015\Variables\Variables\obj\Debug\Variables.exe
+D:\VisualStudio2015\Variables\Variables\obj\Debug\Variables.pdb
