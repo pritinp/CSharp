@@ -20,7 +20,35 @@ namespace Strings
             //string myString = string.Format("{0:C}", 123.45);
             //string myString = string.Format("{0:N}", 123456789);
             //string myString = string.Format("{0:P}", .70);
-            string myString = string.Format("Phone number: {0:(###) ###-####}", 1234567890);
+            //string myString = string.Format("Phone number: {0:(###) ###-####}", 1234567890);
+
+            /*
+            string myString = "";
+
+            for (int i = 0; i < 100; i++)
+            {
+                myString = myString + "--" + i.ToString();
+            }
+            */
+
+            /*
+            StringBuilder myString = new StringBuilder();
+
+            for (int i = 0; i < 100; i++)
+            {
+                myString.Append("--");
+                myString.Append(i);
+            }
+            */
+
+            string myString = " That summer we took threes across the board  ";
+
+            //myString = myString.Substring(5, 14);
+            //myString = myString.ToUpper();
+            //myString = myString.Replace(" ", "--");
+            myString = String.Format("Length before: {0} -- After: {1}", 
+                myString.Length, 
+                myString.Trim().Length);
 
             Console.WriteLine(myString);
             Console.ReadLine();
