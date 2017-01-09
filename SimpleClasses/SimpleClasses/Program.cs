@@ -10,8 +10,11 @@ namespace SimpleClasses
     {
         static void Main(string[] args)
         {
+
+            // Initialize an object called Car, and assign this to a variable called 'myNewCar'
             Car myNewCar = new Car();
 
+            // then set the properties of the 'Car' object
             myNewCar.Make = "Oldsmobile";
             myNewCar.Model = "Cutlas Supreme";
             myNewCar.Year = 1986;
@@ -24,6 +27,9 @@ namespace SimpleClasses
 
             //double marketValueOfCar = determineMarketValue(myNewCar);
 
+            // this line of code first calls the 'DetermineMarketValue' method that is defined in the 'Car' class...
+            // and uses the 'this.Year' to pass in the year of the car (as defined in this instance of the car class)...
+            // and then determines the correct market value according to the resutls of the If-Else statement.
             Console.WriteLine("Car's value: {0:C}", myNewCar.DetermineMarketValue());
 
             Console.ReadLine();
@@ -41,13 +47,16 @@ namespace SimpleClasses
 
     class Car
     {
+        //define properties of car in the class
         public string Make { get; set; }
         public string Model { get; set; }
         public int Year { get; set; }
         public string Color { get; set; }
 
+        //include a method in the car class
         public double DetermineMarketValue()
         {
+            // double represents a 'double-precision' floating number
             double carValue = 100.0;
 
             if (this.Year > 1990)
@@ -55,6 +64,8 @@ namespace SimpleClasses
             else
                 carValue = 2000.0;
 
+            
+            // return the car's value
             return carValue;
         }
 
