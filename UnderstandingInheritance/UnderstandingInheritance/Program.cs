@@ -27,6 +27,10 @@ namespace UnderstandingInheritance
          -why are the parameters 'Car car' passed in here? The small case 'car' is the input parameter, and the large case 'Car' is the datatype.Google Passing datatypes into methods.
          -Therefore, I think it's essentialy doing the same as the following...
               private static void printCarDetails(string inputParameter) // where 'string' is the 'data type'
+         - When passing objects into methods as parameters you need to state it's 'data type' first....
+            private static void printCarDetails(<datatype variable_name)    
+            eg.
+            private static void printCarDetails(Car _car)
          -reference from video: Video 15 @ 18m 43sec - input parameter names
          */
         private static void printCarDetails(Car _car)
