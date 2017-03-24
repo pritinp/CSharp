@@ -47,13 +47,42 @@ namespace BasicExcercises
             //14 + -4 * 6 / 11
             //2 + 15 / 6 * 1 - 7 % 2
 
-            int x = 2 + 15 / 6 * 1 - 7 % 2;
+            //int x = 2 + 15 / 6 * 1 - 7 % 2;
 
-            Console.WriteLine("{0}", x);
+            //Console.WriteLine("{0}", x);
+            //Console.ReadLine();
+
+            ////5.Write a C# Sharp program to swap two numbers.
+            //int number1, number2, temp;
+            //Console.Write("Enter the first number: ");
+            //number1 = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter the Second number: ");
+            //number2 = int.Parse(Console.ReadLine());
+
+            //temp = number1;
+            //number1 = number2;
+            //number2 = temp;
+
+            //Console.WriteLine("The First number is: " +number1);
+            //Console.WriteLine("The Second number is: " +number2);
+            //Console.ReadLine(); // why can't this be Console.Readline()?
+
+            //6.Write a C# Sharp program to print the output of multiplication of three numbers which will be entered by the user.
+            int num1, num2, num3, mNum;
+            Console.Write("Enter the first number to multiply: ");
+            num1 = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter the Second number to multiply: ");
+            num2 = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter the Third number to multiply: ");
+            num3 = int.Parse(Console.ReadLine());
+
+            mNum = num1 * num2 * num3;
+
+            Console.WriteLine("The result of the 3 numbers multiplied is: " +mNum);
             Console.ReadLine();
-
-
-
         }
     }
 }
